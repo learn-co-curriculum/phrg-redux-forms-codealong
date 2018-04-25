@@ -292,3 +292,4 @@ Ok, once you change the __manageTodo()__ reducer to the above function, open up 
 ## Summary
 
 There's a lot of typing in this section, but three main steps.  First, we made sure the React component of our application was working. We did this by building a form, and then making sure that whenever the user typed in the form's input, the state was updated. Once we got __React__ working, we needed to connect it to __Redux__. We connected Redux by passing through our store object as a prop, and then dispatching an action every time the user submitted the form.  Finally, we built our reducer such that it responded to the appropriate event and concatenated the payload into our array of todos.  In the next section we'll display our state on the page.  That section is a bit of a review, so feel free to finish this application up on your own... after a well-deserved break!
+<p data-visibility='hidden'>PHRG Creating Items with Redux</p>
